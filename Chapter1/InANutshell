@@ -1,0 +1,23 @@
+C provides a variety of data types. The fundamental types are characters, and
+integers and floating-point numbers of several sizes. In addition, there is a
+hierarchy of derived data types created with pointers, arrays, structures,
+and unions. The fundamental types are characters, and integers and floating-point
+numbers of several sizes. In addition, there is a hierarchy of derived data
+types created with pointers, arrays, structures, and unions.
+
+C provides the fundamental control-flow constructions required for well-
+structured programs: statement grouping, decision making (if-else), selecting
+one of a set of possible cases (switch), looping with the termination test at the
+top (while, for) or at the bottom (do), and early loop exit (break).
+
+C provides no operations to deal directly with composite objects such as
+character strings, sets, lists, or arrays. There are no operations that manipulate
+an entire array or string, although structures may be copied as a unit.
+
+The language does not define any storage allocation facility other than static
+definition and the stack discipline provided by the local variables of functions;
+there is no heap or garbage collection.
+
+Finally, C itself provides no input/output facilities; there are no READ or WRITE
+statements, and no built-in file access methods. All of these higher-level mechanisms
+must be provided by explicitly-called functions.
