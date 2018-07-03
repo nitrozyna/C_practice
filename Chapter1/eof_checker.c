@@ -4,5 +4,5 @@
 
 int main(void) {
   printf("Enter a character:\n");
-  printf( "qetchar() != EOF is %d \n" , getchar() != EOF);
+  printf( "getchar() != EOF is %d \n" , getchar() != EOF);
 }
