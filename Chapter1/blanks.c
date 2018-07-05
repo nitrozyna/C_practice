@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**Program that replaces a string of one or more blanks by a single blank (accounts for tabs)**/
+/**Exercise 1-9, program that replaces a string of one or more blanks by a single blank (accounts for tabs)**/
 
 int main(void){
 

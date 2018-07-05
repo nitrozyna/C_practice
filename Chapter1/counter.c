@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**Program that counts blanks, tabs and new lines**/
+/**Exercise 1-8, program that counts blanks, tabs and new lines**/
 int main(void) {
 
   int c, b, t, n;
@@ -23,5 +23,5 @@ int main(void) {
   printf("The amount of blanks:%d, amount of tabs:%d, amount of new lines:%d\n",b,t,n);
 
   return 0;
-  
+
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Print Fahreinheit-Celsius table for fahr = 0, 20, ..., 300 and
+/* Exercise 1-4. Print Fahreinheit-Celsius table for fahr = 0, 20, ..., 300 and
 * Print Celsius-Fahreinheit table for fahr = 0, 20, ..., 300 */
 
 main() {
