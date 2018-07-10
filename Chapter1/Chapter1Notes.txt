@@ -1,0 +1,37 @@
+In C, all variables must be declared before they are used usually at the beginning of the function before any executable statements.
+
+While loop:
+It is good practice to use braces if you have more statements, otherwise you don't have to.
+
+For loop:
+1. Initialization
+2. Test or condition that controls the loop.
+3. After evaluation of the condition if it is true, the body of the loop is executed.
+4. The increment step.
+The loop terminates if the condition has become false.
+
+If the body of the for loop is empty because all of the work is done in test and increment parts, put a semicolon to satisfy grammatical rules of C.
+
+# define line defines a symbolic name or symbolic constant to be a particular string of characters.
+
+# define CONSTANT 0
+
+NOTE: no semicolon at the end of #define line.
+
+Character input and output:
+
+Supported by the standard library. Text input and output is dealt with as streams of characters.
+
+c = getchar() --> the variable c contains the next character of input
+
+putchar(c) --> prints a character each line it is called.
+
+EOF --> End Of File, a value that cannot be confused with any real character.
+
+= assignment
+== equality test
+
+if (expression)
+    statement1
+else
+    statement2
